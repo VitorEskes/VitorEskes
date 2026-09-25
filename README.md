@@ -2,12 +2,7 @@
 class Developer {
     String name = "Vitor Eskes";
     String profession = "Full Stack Developer";
-    
-    class Contact {
-        String email = "vitoralveseskes@gmail.com";
-    }
-    
-    Contact contact = new Contact();
+    String email = "vitoralveseskes@gmail.com";
 }
 
 public class Main {
@@ -15,7 +10,7 @@ public class Main {
         Developer dev = new Developer();
         System.out.println(dev.name);
         System.out.println(dev.profession);
-        System.out.println(dev.contact.email);
+        System.out.println(dev.email);
     }
 }
 ```
